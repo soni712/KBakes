@@ -1,7 +1,6 @@
 
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SignUp from "./components/SignUp";
 import LandingPage from "./components/LandingPage";
 import Header from "./common/Header";
 function App() {
