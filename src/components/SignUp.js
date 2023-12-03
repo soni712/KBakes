@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import * as TravelListingAPI from "../services/country";
 import Header from "../common/Header";
+import './signup.css'
 
 const SignUp = () => {
   const [formData, setFormData] = useState({
@@ -32,7 +33,7 @@ const SignUp = () => {
   }, []);
   return (
     <>
-        {/* <Header /> */}
+     <Header></Header>
       <section className="container">
   
       <header>Registration Form</header>

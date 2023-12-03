@@ -1,12 +1,16 @@
-import logo from "./klogo.png";
+
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import SignUp from "./components/SignUp";
+import LandingPage from "./components/LandingPage";
+import Header from "./common/Header";
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SignUp />}></Route>
+
+        <Route path="/" element={<LandingPage />}></Route>
+        <Route path="/cakes" element={<LandingPage />}></Route>
+        <Route path="/header" element={<Header />}></Route>
       </Routes>
     </BrowserRouter>
   );
