@@ -47,7 +47,7 @@ const ProductTab = () => {
                         >
                           <span className="tooltip-text">Wishlist</span>
                           <span className="wishlist-icon">
-                            <i className="feather-heart" />
+                          <i class="fa-regular fa-heart"></i>
                           </span>
                         </a>
                         <a
@@ -58,7 +58,7 @@ const ProductTab = () => {
                         >
                           <span className="tooltip-text">Quickview</span>
                           <span className="quickview-icon">
-                            <i className="feather-eye" />
+                          <i class="fa-regular fa-eye"></i>
                           </span>
                         </a>
                       </div>

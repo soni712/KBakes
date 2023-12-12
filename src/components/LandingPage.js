@@ -1975,7 +1975,7 @@ const LandingPage = () => {
   
     <a href="javascript:void(0)" id="top" className="scroll">
       <span>
-        <i className="feather-arrow-up" />
+      <i class="fa-solid fa-arrow-up-from-bracket"></i>
       </span>
     </a>
   
