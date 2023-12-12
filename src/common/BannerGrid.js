@@ -1,9 +1,9 @@
-import React from 'react'
+import React from "react";
 
 function BannerGrid() {
   return (
     <>
-         <section
+      <section
         className="banner3 banner3-template"
         style={{ backgroundImage: 'url("img/banner/about.jpg")' }}
       >
@@ -23,16 +23,18 @@ function BannerGrid() {
                   {/* img end */}
                   {/* text start */}
                   <div className="banner-text-content">
-                    <span className="sub-title">We are obsessed with cones</span>
+                    <span className="sub-title">
+                      We are obsessed with cones
+                    </span>
                     <h2>
                       <span>Ice cream cone that</span>
                       <span>enriches your life!</span>
                     </h2>
                     <p>
                       There are many variations of passages of lorem ipsum
-                      available, but the majority have suffered alteration in some
-                      form, by injected humour, or randomised words which don't
-                      look even slightly believable
+                      available, but the majority have suffered alteration in
+                      some form, by injected humour, or randomised words which
+                      don't look even slightly believable
                     </p>
                     <div className="banner-price">
                       <h2 className="custom-text-1">
@@ -48,7 +50,7 @@ function BannerGrid() {
                       </span>
                       <span className="cart-icon">
                         <a href="collection.html">
-                          <i className="feather-arrow-right" />
+                          <i class="fa-solid fa-arrow-right"></i>
                         </a>
                       </span>
                     </div>
@@ -60,9 +62,8 @@ function BannerGrid() {
           </div>
         </div>
       </section>
-      
     </>
-  )
+  );
 }
 
-export default BannerGrid
+export default BannerGrid;

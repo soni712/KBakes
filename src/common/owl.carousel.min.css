@@ -175,6 +175,7 @@
     top: 50%;
     margin-left: -40px;
     margin-top: -40px;
+    /* background: url(owl.video.play.png) no-repeat; */
     background: url(https://spacingtech.com/html/banno/banno-ltr/img/slider/mobile-slider-11.png) no-repeat;
     cursor: pointer;
     z-index: 1;

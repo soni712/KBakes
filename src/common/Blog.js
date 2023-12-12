@@ -19,8 +19,9 @@ const Blog = () => {
           </div>
           {/* blog title end */}
           {/* blog swiper start */}
-          <div className="blog-slider swiper" id="blog-template">
-            <div className="swiper-wrapper">
+          <div className="blog-slider swiper swiper-initialized swiper-horizontal swiper-pointer-events" id="blog-template">
+          <div className="swiper-wrapper" id="swiper-wrapper-e43c1122a97dd5b9">
+          <div class="swiper-slide swiper-slide-duplicate">
               <div className="swiper-slide">
                 <div className="blog-post">
                   <div className="blog-main-img">
@@ -231,6 +232,7 @@ const Blog = () => {
           {/* blog swiper end */}
         </div>
       </div>
+    </div>
     </div>
   </section></>
   )
