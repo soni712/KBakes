@@ -2,7 +2,7 @@ import React from "react";
 import NavBar from "../common/NavBar";
 import Footernew from "../common/Footernew";
 
-const Register = () => {
+const ForgetPassword = () => {
   return (
     <>
       <NavBar />
@@ -16,16 +16,16 @@ const Register = () => {
                 <div className="breadcrumb-index">
                   {/* breadcrumb main-title start*/}
                   <div className="breadcrumb-title">
-                    <h2>Create account</h2>
+                    <h2>Account</h2>
                   </div>
                   {/* breadcrumb main-title end*/}
                   {/* breadcrumb-list start */}
                   <ul className="breadcrumb-list">
-                    <li className="breadcrumb-item-link">
-                      <a href="/">Home</a>
+                    <li className="breadcrumb-item-list">
+                      <a href="index.html">Home</a>
                     </li>
-                    <li className="breadcrumb-item-link">
-                      <span>Create account</span>
+                    <li className="breadcrumb-item-list">
+                      <span>Account</span>
                     </li>
                   </ul>
                   {/* breadcrumb-list end */}
@@ -41,95 +41,53 @@ const Register = () => {
               <div className="col">
                 <div className="acc-form">
                   <div className="log-acc-page" id="CustomerLoginForm">
-                    {/* account title start */}
-                    <div className="content-main-title">
-                      <div className="section-cont-title">
-                        <h2>
-                          <span>Create account</span>
-                        </h2>
-                        <p>Please register account detail</p>
-                      </div>
-                    </div>
-                    {/* account title end */}
-                    {/* account login start */}
-                    <div className="acc-page">
-                      <div className="registers">
-                        <form method="post">
-                          <div className="login-form-container">
-                            <ul className="fill-form">
-                              <li className="fname">
-                                <label>First name</label>
-                                <input
-                                  type="email"
-                                  name="q"
-                                  className="input-full"
-                                  placeholder="First name"
-                                  autoComplete="off"
-                                />
-                              </li>
-                              <li className="lname">
-                                <label>Last name</label>
-                                <input
-                                  type="password"
-                                  name="q"
-                                  className="input-full"
-                                  placeholder="Last name"
-                                />
-                              </li>
-                              <li className="log-email">
-                                <label>Email address</label>
-                                <input
-                                  type="email"
-                                  name="q"
-                                  className="input-full"
-                                  placeholder="Email address"
-                                />
-                              </li>
-                              <li className="log-pwd">
-                                <label>Password</label>
-                                <input
-                                  type="password"
-                                  name="q"
-                                  className="input-full"
-                                  placeholder="Password"
-                                />
-                              </li>
-                            </ul>
-                            <div className="form-action-button">
-                              <div className="read-agree">
-                                <label>
-                                  <span className="agree-text">
-                                    I have read and agree with the
-                                    <a href="terms-condition.html">
-                                      terms &amp; condition.
-                                    </a>
-                                  </span>
-                                  <input
-                                    type="checkbox"
-                                    name="q"
-                                    className="cust-checkbox create-checkbox"
-                                  />
-                                  <span className="cust-check" />
-                                </label>
-                                <button
-                                  type="submit"
-                                  className="btn btn-style2 create disabled"
-                                >
-                                  Create
-                                </button>
-                              </div>
-                            </div>
-                          </div>
-                        </form>
-                      </div>
-                      <div className="acc-wrapper">
-                        <h6>Already have account?</h6>
-                        <div className="account-optional-action">
-                          <a href="/login">Log in</a>
+                    <>
+                      <div className="content-main-title">
+                        <div className="section-cont-title">
+                          <h2>
+                            <span className="title-main">
+                              Reset your password
+                            </span>
+                          </h2>
+                          <p>
+                            We will send you an email to reset your password.
+                          </p>
                         </div>
                       </div>
-                    </div>
-                    {/* account login end */}
+                      {/* account title end */}
+                      {/* account login start */}
+                      <div className="acc-page">
+                        <div className="login">
+                          <form method="post">
+                            <div className="login-form-container">
+                              <ul className="fill-form">
+                                <li className="log-email">
+                                  <label>Email address</label>
+                                  <input
+                                    type="email"
+                                    name="q"
+                                    className="input-full"
+                                    placeholder="Email address"
+                                    autoComplete="off"
+                                  />
+                                </li>
+                                <li className="form-toggle-btn">
+                                  <div className="form-action-button">
+                                    <button
+                                      type="submit"
+                                      className="btn btn-style2"
+                                    >
+                                      Submit
+                                    </button>
+                                    <a href="/login">Cancel</a>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </>
                   </div>
                 </div>
               </div>
@@ -137,8 +95,9 @@ const Register = () => {
           </div>
         </section>
       </main>
+
       {/* main section end*/}
-  <Footernew />
+      <Footernew />
       {/* search-popup start */}
       <div className="modal fade" id="seachmodal">
         <div className="modal-dialog">
@@ -1935,4 +1894,4 @@ const Register = () => {
   );
 };
 
-export default Register;
+export default ForgetPassword;
