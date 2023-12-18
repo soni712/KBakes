@@ -52,7 +52,7 @@ const Footer = () => {
                   </a>
                   <ul className="footer-sublist link collapse" id="help-center">
                     <li className="ftsublink-li">
-                      <a href="create-account.html">Login / Register</a>
+                      <a href="register">Login / Register</a>
                     </li>
                     <li className="ftsublink-li">
                       <a href="wishlist-product.html">Wishlist</a>

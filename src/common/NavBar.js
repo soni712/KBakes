@@ -1,5 +1,4 @@
 import React from "react";
-import "./owl.carousel.min.css";
 // import '../../public/css/owl.theme.default.min.css';
 
 const NavBar = () => {
